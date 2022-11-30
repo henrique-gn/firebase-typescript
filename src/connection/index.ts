@@ -1,7 +1,7 @@
 import { initializeApp, cert } from "firebase-admin/app"
 import { getFirestore } from "firebase-admin/firestore"
 import { getStorage } from "firebase-admin/storage"
-import token from "./key.json"
+import token from "./example.json"
 
 initializeApp({
   // typescript throws a error here because the type of ServiceAccount and auto-generated JSON, but it works perfectly fine
