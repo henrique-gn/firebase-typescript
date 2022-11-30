@@ -1,0 +1,20 @@
+{
+  "name": "firebase-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/henrique-gn/firebase-typescrit.git",
+  "author": "henrique-gn <henrique-gn>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^11.3.0"
+  },
+  "scripts": {
+    "dev": "tsc && node build/connection",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.3"
+  }
+}
