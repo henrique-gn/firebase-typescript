@@ -14,8 +14,5 @@ const database = getFirestore()
 const bucket = getStorage().bucket()
 
 database.settings({ ignoreUndefinedProperties: true })
-database.collection('')
-const f = (col: FirebaseFirestore.CollectionReference) => {
 
-}
 export { database, bucket }
